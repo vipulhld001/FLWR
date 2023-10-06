@@ -1,0 +1,306 @@
+INFO flwr 2023-03-16 09:01:12,647 | app.py:139 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout
+=None)                                                                                                                   INFO flwr 2023-03-16 09:01:12,653 | app.py:152 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+INFO flwr 2023-03-16 09:01:12,654 | server.py:86 | Initializing global parameters
+INFO flwr 2023-03-16 09:01:12,654 | server.py:270 | Requesting initial parameters from one random client
+INFO flwr 2023-03-16 09:01:21,498 | server.py:274 | Received initial parameters from one random client
+INFO flwr 2023-03-16 09:01:21,499 | server.py:88 | Evaluating initial parameters
+INFO flwr 2023-03-16 09:01:21,499 | server.py:101 | FL starting
+DEBUG flwr 2023-03-16 09:01:24,370 | server.py:215 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 09:35:54,284 | server.py:229 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2023-03-16 09:35:54,447 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2023-03-16 09:35:54,447 | server.py:165 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 09:36:02,987 | server.py:179 | evaluate_round 1 received 2 results and 0 failures
+WARNING flwr 2023-03-16 09:36:02,987 | fedavg.py:273 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2023-03-16 09:36:02,988 | server.py:215 | fit_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 10:10:54,018 | server.py:229 | fit_round 2 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 10:10:54,138 | server.py:165 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 10:11:01,683 | server.py:179 | evaluate_round 2 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 10:11:01,683 | server.py:215 | fit_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 10:45:54,433 | server.py:229 | fit_round 3 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 10:45:54,549 | server.py:165 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 10:46:02,169 | server.py:179 | evaluate_round 3 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 10:46:02,169 | server.py:215 | fit_round 4: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 11:20:29,779 | server.py:229 | fit_round 4 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 11:20:29,897 | server.py:165 | evaluate_round 4: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 11:20:37,282 | server.py:179 | evaluate_round 4 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 11:20:37,282 | server.py:215 | fit_round 5: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 11:55:00,069 | server.py:229 | fit_round 5 received 2 results and 0 failures
+DEBUG flwr 2023-03-16 11:55:00,211 | server.py:165 | evaluate_round 5: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-16 11:55:10,742 | server.py:179 | evaluate_round 5 received 2 results and 0 failures
+INFO flwr 2023-03-16 11:55:10,742 | server.py:144 | FL finished in 10429.243548061
+INFO flwr 2023-03-16 11:55:10,742 | app.py:202 | app_fit: losses_distributed [(1, 2.325493812561035), (2, 2.1402204036712
+646), (3, 1.8323689699172974), (4, 1.8195879459381104), (5, 1.5136477947235107)]                                         INFO flwr 2023-03-16 11:55:10,743 | app.py:203 | app_fit: metrics_distributed {}
+INFO flwr 2023-03-16 11:55:10,743 | app.py:204 | app_fit: losses_centralized []
+INFO flwr 2023-03-16 11:55:10,743 | app.py:205 | app_fit: metrics_centralized {}
+
+
+
+
+CLIENT 1 @@@@@@@@@@@@@@@@@@@@@@@@@
+
+2023-03-16 09:01:16.985301: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory             2023-03-16 09:01:16.985342: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do no
+t have a GPU set up on your machine.                                                                                     2023-03-16 09:01:17.022471: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attem
+pting to register factory for plugin cuBLAS when one has already been registered                                         2023-03-16 09:01:17.795517: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory                 2023-03-16 09:01:17.795608: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory   2023-03-16 09:01:17.795640: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some Te
+nsorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.                                                                                               2023-03-16 09:01:18.907969: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory                       2023-03-16 09:01:18.908007: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (3
+03)                                                                                                                      2023-03-16 09:01:18.908032: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to b
+e running on this host (vipul-ds): /proc/driver/nvidia/version does not exist                                            INFO flwr 2023-03-16 09:01:21,371 | grpc.py:50 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2023-03-16 09:01:21,373 | connection.py:38 | ChannelConnectivity.IDLE
+DEBUG flwr 2023-03-16 09:01:21,374 | connection.py:38 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2023-03-16 09:01:21,376 | connection.py:38 | ChannelConnectivity.READY
+Epoch 1/10
+1563/1563 [==============================] - 200s 125ms/step - loss: 1.7634 - accuracy: 0.3512
+Epoch 2/10
+1563/1563 [==============================] - 204s 130ms/step - loss: 1.5895 - accuracy: 0.4248
+Epoch 3/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5824 - accuracy: 0.4255
+Epoch 4/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5611 - accuracy: 0.4330
+Epoch 5/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5365 - accuracy: 0.4444
+Epoch 6/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5629 - accuracy: 0.4338
+Epoch 7/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.4830 - accuracy: 0.4625
+Epoch 8/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.3941 - accuracy: 0.4983
+Epoch 9/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.4187 - accuracy: 0.4892
+Epoch 10/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5205 - accuracy: 0.4512
+313/313 [==============================] - 8s 23ms/step - loss: 2.3255 - accuracy: 0.1003
+2.325493812561035 0.10029999911785126
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5791 - accuracy: 0.4273
+Epoch 2/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5176 - accuracy: 0.4476
+Epoch 3/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6417 - accuracy: 0.4004
+Epoch 4/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6532 - accuracy: 0.3940
+Epoch 5/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6214 - accuracy: 0.4114
+Epoch 6/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6328 - accuracy: 0.4013
+Epoch 7/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6002 - accuracy: 0.4168
+Epoch 8/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5438 - accuracy: 0.4379
+Epoch 9/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6325 - accuracy: 0.4087
+Epoch 10/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6529 - accuracy: 0.3992
+313/313 [==============================] - 7s 23ms/step - loss: 2.1402 - accuracy: 0.2941
+2.1402204036712646 0.29409998655319214
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 209s 133ms/step - loss: 1.5097 - accuracy: 0.4540
+Epoch 2/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.5647 - accuracy: 0.4369
+Epoch 3/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4991 - accuracy: 0.4635
+Epoch 4/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4578 - accuracy: 0.4749
+Epoch 5/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.6262 - accuracy: 0.4184
+Epoch 6/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.6102 - accuracy: 0.4204
+Epoch 7/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5182 - accuracy: 0.4517
+Epoch 8/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5000 - accuracy: 0.4575
+Epoch 9/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.4531 - accuracy: 0.4781
+Epoch 10/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5029 - accuracy: 0.4582
+313/313 [==============================] - 7s 23ms/step - loss: 1.8324 - accuracy: 0.3614
+1.8323689699172974 0.3614000082015991
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.3958 - accuracy: 0.4985
+Epoch 2/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.4815 - accuracy: 0.4663
+Epoch 3/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5080 - accuracy: 0.4531
+Epoch 4/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.5132 - accuracy: 0.4505
+Epoch 5/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.7261 - accuracy: 0.3853
+Epoch 6/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.6717 - accuracy: 0.3867
+Epoch 7/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.6265 - accuracy: 0.4081
+Epoch 8/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.6583 - accuracy: 0.3949
+Epoch 9/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.6140 - accuracy: 0.4119
+Epoch 10/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.5972 - accuracy: 0.4194
+313/313 [==============================] - 7s 22ms/step - loss: 1.8196 - accuracy: 0.3752
+1.8195879459381104 0.3752000033855438
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.6287 - accuracy: 0.4174
+Epoch 2/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5427 - accuracy: 0.4421
+Epoch 3/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.4995 - accuracy: 0.4584
+Epoch 4/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.4648 - accuracy: 0.4684
+Epoch 5/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.4443 - accuracy: 0.4763
+Epoch 6/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.4499 - accuracy: 0.4782
+Epoch 7/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.4163 - accuracy: 0.4874
+Epoch 8/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.3482 - accuracy: 0.5133
+Epoch 9/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.3054 - accuracy: 0.5304
+Epoch 10/10
+1563/1563 [==============================] - 202s 129ms/step - loss: 1.2486 - accuracy: 0.5517
+313/313 [==============================] - 7s 23ms/step - loss: 1.5136 - accuracy: 0.5046
+1.5136477947235107 0.5045999884605408
+<class 'float'> <class 'float'>
+DEBUG flwr 2023-03-16 11:55:10,749 | connection.py:109 | gRPC channel closed
+INFO flwr 2023-03-16 11:55:10,749 | app.py:153 | Disconnect and shut down
+
+
+
+CLIENT 2 @@@@@@@@@@@@@@@@@@@@@@@
+
+
+2023-03-16 09:01:20.378341: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory             2023-03-16 09:01:20.378377: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do no
+t have a GPU set up on your machine.                                                                                     2023-03-16 09:01:20.418143: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attem
+pting to register factory for plugin cuBLAS when one has already been registered                                         2023-03-16 09:01:21.091037: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory                 2023-03-16 09:01:21.091128: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory   2023-03-16 09:01:21.091160: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some Te
+nsorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.                                                                                               2023-03-16 09:01:22.219327: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic librar
+y 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory                       2023-03-16 09:01:22.219360: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (3
+03)                                                                                                                      2023-03-16 09:01:22.219382: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to b
+e running on this host (vipul-ds): /proc/driver/nvidia/version does not exist                                            INFO flwr 2023-03-16 09:01:24,367 | grpc.py:50 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2023-03-16 09:01:24,369 | connection.py:38 | ChannelConnectivity.IDLE
+DEBUG flwr 2023-03-16 09:01:24,376 | connection.py:38 | ChannelConnectivity.READY
+Epoch 1/10
+1563/1563 [==============================] - 202s 126ms/step - loss: 1.8170 - accuracy: 0.3334
+Epoch 2/10
+1563/1563 [==============================] - 206s 131ms/step - loss: 1.5767 - accuracy: 0.4290
+Epoch 3/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.5196 - accuracy: 0.4527
+Epoch 4/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.4539 - accuracy: 0.4755
+Epoch 5/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4774 - accuracy: 0.4677
+Epoch 6/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4460 - accuracy: 0.4787
+Epoch 7/10
+1563/1563 [==============================] - 209s 133ms/step - loss: 1.5015 - accuracy: 0.4593
+Epoch 8/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4598 - accuracy: 0.4747
+Epoch 9/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.5165 - accuracy: 0.4508
+Epoch 10/10
+1563/1563 [==============================] - 205s 131ms/step - loss: 1.4723 - accuracy: 0.4734
+313/313 [==============================] - 8s 23ms/step - loss: 2.3255 - accuracy: 0.1003
+2.325493812561035 0.10029999911785126
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.6335 - accuracy: 0.4042
+Epoch 2/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.4998 - accuracy: 0.4562
+Epoch 3/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.4185 - accuracy: 0.4867
+Epoch 4/10
+1563/1563 [==============================] - 209s 133ms/step - loss: 1.4445 - accuracy: 0.4819
+Epoch 5/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.4343 - accuracy: 0.4859
+Epoch 6/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.4196 - accuracy: 0.4925
+Epoch 7/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.3913 - accuracy: 0.5026
+Epoch 8/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.4222 - accuracy: 0.4900
+Epoch 9/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.4251 - accuracy: 0.4857
+Epoch 10/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.3913 - accuracy: 0.4995
+313/313 [==============================] - 7s 23ms/step - loss: 2.1402 - accuracy: 0.2941
+2.1402204036712646 0.29409998655319214
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.5601 - accuracy: 0.4344
+Epoch 2/10
+1563/1563 [==============================] - 211s 135ms/step - loss: 1.5107 - accuracy: 0.4534
+Epoch 3/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.4379 - accuracy: 0.4843
+Epoch 4/10
+1563/1563 [==============================] - 211s 135ms/step - loss: 1.6752 - accuracy: 0.3981
+Epoch 5/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.6314 - accuracy: 0.4079
+Epoch 6/10
+1563/1563 [==============================] - 210s 134ms/step - loss: 1.5536 - accuracy: 0.4339
+Epoch 7/10
+1563/1563 [==============================] - 209s 134ms/step - loss: 1.5923 - accuracy: 0.4160
+Epoch 8/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4954 - accuracy: 0.4568
+Epoch 9/10
+1563/1563 [==============================] - 208s 133ms/step - loss: 1.4717 - accuracy: 0.4650
+Epoch 10/10
+1563/1563 [==============================] - 204s 130ms/step - loss: 1.4704 - accuracy: 0.4685
+313/313 [==============================] - 7s 23ms/step - loss: 1.8324 - accuracy: 0.3614
+1.8323689699172974 0.3614000082015991
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5605 - accuracy: 0.4426
+Epoch 2/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.4514 - accuracy: 0.4743
+Epoch 3/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4532 - accuracy: 0.4705
+Epoch 4/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.5122 - accuracy: 0.4519
+Epoch 5/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.5444 - accuracy: 0.4396
+Epoch 6/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.6202 - accuracy: 0.4174
+Epoch 7/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5355 - accuracy: 0.4446
+Epoch 8/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4799 - accuracy: 0.4625
+Epoch 9/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.5440 - accuracy: 0.4396
+Epoch 10/10
+1563/1563 [==============================] - 203s 130ms/step - loss: 1.4997 - accuracy: 0.4571
+313/313 [==============================] - 7s 22ms/step - loss: 1.8196 - accuracy: 0.3752
+1.8195879459381104 0.3752000033855438
+<class 'float'> <class 'float'>
+Epoch 1/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5079 - accuracy: 0.4560
+Epoch 2/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4778 - accuracy: 0.4633
+Epoch 3/10
+1563/1563 [==============================] - 207s 133ms/step - loss: 1.4028 - accuracy: 0.4926
+Epoch 4/10
+1563/1563 [==============================] - 206s 132ms/step - loss: 1.3358 - accuracy: 0.5189
+Epoch 5/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4342 - accuracy: 0.4846
+Epoch 6/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.5062 - accuracy: 0.4585
+Epoch 7/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4340 - accuracy: 0.4831
+Epoch 8/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.3992 - accuracy: 0.4979
+Epoch 9/10
+1563/1563 [==============================] - 207s 132ms/step - loss: 1.4380 - accuracy: 0.4790
+Epoch 10/10
+1563/1563 [==============================] - 200s 128ms/step - loss: 1.5018 - accuracy: 0.4582
+313/313 [==============================] - 7s 23ms/step - loss: 1.5136 - accuracy: 0.5046
+1.5136477947235107 0.5045999884605408
+<class 'float'> <class 'float'>
+DEBUG flwr 2023-03-16 11:55:10,752 | connection.py:109 | gRPC channel closed
+INFO flwr 2023-03-16 11:55:10,753 | app.py:153 | Disconnect and shut down
+

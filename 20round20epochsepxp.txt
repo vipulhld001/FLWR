@@ -1,0 +1,987 @@
+Closed one client after round 7 
+- loss: 0.7807 - accuracy: 0.8115
+0.780676543712616 0.8115000128746033 (Global)
+- 515s 329ms/step - loss: 0.0619 - accuracy: 0.9792
+
+
+SERVERRRRRRRR@@@@@@@@@@@@@@@@@@@@@@
+
+INFO flwr 2023-03-11 20:34:17,368 | app.py:139 | Starting Flower server, config: ServerConfig(num_rounds=20, round_timeou
+t=None)                                                                                                                  INFO flwr 2023-03-11 20:34:17,379 | app.py:152 | Flower ECE: gRPC server running (20 rounds), SSL is disabled
+INFO flwr 2023-03-11 20:34:17,379 | server.py:86 | Initializing global parameters
+INFO flwr 2023-03-11 20:34:17,379 | server.py:270 | Requesting initial parameters from one random client
+INFO flwr 2023-03-11 20:34:30,207 | server.py:274 | Received initial parameters from one random client
+INFO flwr 2023-03-11 20:34:30,207 | server.py:88 | Evaluating initial parameters
+INFO flwr 2023-03-11 20:34:30,207 | server.py:101 | FL starting
+DEBUG flwr 2023-03-11 20:34:34,310 | server.py:215 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-11 22:29:15,895 | server.py:229 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2023-03-11 22:29:16,071 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2023-03-11 22:29:16,072 | server.py:165 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-11 22:29:41,918 | server.py:179 | evaluate_round 1 received 3 results and 0 failures
+WARNING flwr 2023-03-11 22:29:41,918 | fedavg.py:273 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2023-03-11 22:29:41,918 | server.py:215 | fit_round 2: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 01:18:56,398 | server.py:229 | fit_round 2 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 01:18:56,664 | server.py:165 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 01:19:19,996 | server.py:179 | evaluate_round 2 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 01:19:19,996 | server.py:215 | fit_round 3: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 04:07:11,821 | server.py:229 | fit_round 3 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 04:07:12,054 | server.py:165 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 04:07:53,496 | server.py:179 | evaluate_round 3 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 04:07:53,497 | server.py:215 | fit_round 4: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 06:55:23,108 | server.py:229 | fit_round 4 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 06:55:23,309 | server.py:165 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 06:55:46,191 | server.py:179 | evaluate_round 4 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 06:55:46,191 | server.py:215 | fit_round 5: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 09:44:44,593 | server.py:229 | fit_round 5 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 09:44:44,788 | server.py:165 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 09:45:26,197 | server.py:179 | evaluate_round 5 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 09:45:26,197 | server.py:215 | fit_round 6: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 12:35:31,720 | server.py:229 | fit_round 6 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 12:35:31,943 | server.py:165 | evaluate_round 6: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 12:36:13,443 | server.py:179 | evaluate_round 6 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 12:36:13,443 | server.py:215 | fit_round 7: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 15:26:05,424 | server.py:229 | fit_round 7 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 15:26:05,625 | server.py:165 | evaluate_round 7: strategy sampled 3 clients (out of 3)
+DEBUG flwr 2023-03-12 15:26:47,184 | server.py:179 | evaluate_round 7 received 3 results and 0 failures
+DEBUG flwr 2023-03-12 15:26:47,184 | server.py:215 | fit_round 8: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 17:25:26,083 | server.py:229 | fit_round 8 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 17:25:26,248 | server.py:165 | evaluate_round 8: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 17:25:39,617 | server.py:179 | evaluate_round 8 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 17:25:39,617 | server.py:215 | fit_round 9: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 19:23:23,967 | server.py:229 | fit_round 9 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 19:23:24,128 | server.py:165 | evaluate_round 9: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 19:23:44,973 | server.py:179 | evaluate_round 9 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 19:23:44,973 | server.py:215 | fit_round 10: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 21:21:34,309 | server.py:229 | fit_round 10 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 21:21:34,450 | server.py:165 | evaluate_round 10: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 21:21:47,670 | server.py:179 | evaluate_round 10 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 21:21:47,670 | server.py:215 | fit_round 11: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 23:19:18,972 | server.py:229 | fit_round 11 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 23:19:19,115 | server.py:165 | evaluate_round 11: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-12 23:19:32,400 | server.py:179 | evaluate_round 11 received 2 results and 0 failures
+DEBUG flwr 2023-03-12 23:19:32,400 | server.py:215 | fit_round 12: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 01:16:23,363 | server.py:229 | fit_round 12 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 01:16:23,503 | server.py:165 | evaluate_round 12: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 01:16:44,352 | server.py:179 | evaluate_round 12 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 01:16:44,352 | server.py:215 | fit_round 13: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 03:13:09,639 | server.py:229 | fit_round 13 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 03:13:09,775 | server.py:165 | evaluate_round 13: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 03:13:22,851 | server.py:179 | evaluate_round 13 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 03:13:22,851 | server.py:215 | fit_round 14: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 05:09:27,079 | server.py:229 | fit_round 14 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 05:09:27,248 | server.py:165 | evaluate_round 14: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 05:09:40,215 | server.py:179 | evaluate_round 14 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 05:09:40,215 | server.py:215 | fit_round 15: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 07:05:11,707 | server.py:229 | fit_round 15 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 07:05:11,856 | server.py:165 | evaluate_round 15: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 07:05:24,861 | server.py:179 | evaluate_round 15 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 07:05:24,861 | server.py:215 | fit_round 16: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 09:01:58,688 | server.py:229 | fit_round 16 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 09:01:58,857 | server.py:165 | evaluate_round 16: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 09:02:11,966 | server.py:179 | evaluate_round 16 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 09:02:11,966 | server.py:215 | fit_round 17: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 10:55:23,098 | server.py:229 | fit_round 17 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 10:55:23,271 | server.py:165 | evaluate_round 17: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 10:55:36,099 | server.py:179 | evaluate_round 17 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 10:55:36,100 | server.py:215 | fit_round 18: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 12:43:24,809 | server.py:229 | fit_round 18 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 12:43:24,951 | server.py:165 | evaluate_round 18: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 12:43:35,382 | server.py:179 | evaluate_round 18 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 12:43:35,383 | server.py:215 | fit_round 19: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 14:30:34,460 | server.py:229 | fit_round 19 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 14:30:34,602 | server.py:165 | evaluate_round 19: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 14:30:47,592 | server.py:179 | evaluate_round 19 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 14:30:47,593 | server.py:215 | fit_round 20: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 16:25:02,963 | server.py:229 | fit_round 20 received 2 results and 0 failures
+DEBUG flwr 2023-03-13 16:25:03,102 | server.py:165 | evaluate_round 20: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-03-13 16:25:15,871 | server.py:179 | evaluate_round 20 received 2 results and 0 failures
+INFO flwr 2023-03-13 16:25:15,871 | server.py:144 | FL finished in 157845.66403077287
+INFO flwr 2023-03-13 16:25:15,872 | app.py:202 | app_fit: losses_distributed [(1, 2.3217902183532715), (2, 0.912735521793
+3655), (3, 0.6578637361526489), (4, 0.7316607236862183), (5, 0.7651069760322571), (6, 0.7388949990272522), (7, 0.780676543712616), (8, 0.7996347546577454), (9, 0.8805355429649353), (10, 0.9029269814491272), (11, 0.9327894449234009), (12, 0.9296835660934448), (13, 0.8685781955718994), (14, 0.9245662093162537), (15, 0.9059383869171143), (16, 0.9139758944511414), (17, 0.8705551624298096), (18, 0.9091641306877136), (19, 0.8789088129997253), (20, 0.9375816583633423)]                  INFO flwr 2023-03-13 16:25:15,872 | app.py:203 | app_fit: metrics_distributed {}
+INFO flwr 2023-03-13 16:25:15,872 | app.py:204 | app_fit: losses_centralized []
+INFO flwr 2023-03-13 16:25:15,872 | app.py:205 | app_fit: metrics_centralized {}
+
+
+
+
+
+
+CLIENT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+python client.py 
+2023-03-11 20:34:26.112911: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2023-03-11 20:34:26.112955: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-03-11 20:34:26.149483: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-03-11 20:34:26.888222: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-03-11 20:34:26.888320: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-03-11 20:34:26.888343: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-03-11 20:34:28.020004: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2023-03-11 20:34:28.020038: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2023-03-11 20:34:28.020061: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vipul-ds): /proc/driver/nvidia/version does not exist
+INFO flwr 2023-03-11 20:34:30,048 | grpc.py:50 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2023-03-11 20:34:30,056 | connection.py:38 | ChannelConnectivity.IDLE
+DEBUG flwr 2023-03-11 20:34:30,057 | connection.py:38 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2023-03-11 20:34:30,063 | connection.py:38 | ChannelConnectivity.READY
+Epoch 1/20
+1563/1563 [==============================] - 351s 221ms/step - loss: 1.9366 - accuracy: 0.2948
+Epoch 2/20
+1563/1563 [==============================] - 341s 218ms/step - loss: 1.6389 - accuracy: 0.4065
+Epoch 3/20
+1563/1563 [==============================] - 342s 219ms/step - loss: 1.4870 - accuracy: 0.4700
+Epoch 4/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 1.5083 - accuracy: 0.4726
+Epoch 5/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 1.3834 - accuracy: 0.5150
+Epoch 6/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 1.2208 - accuracy: 0.5712
+Epoch 7/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 1.1199 - accuracy: 0.6087
+Epoch 8/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 1.0852 - accuracy: 0.6211
+Epoch 9/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.9728 - accuracy: 0.6566
+Epoch 10/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.9157 - accuracy: 0.6814
+Epoch 11/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.8590 - accuracy: 0.7003
+Epoch 12/20
+1563/1563 [==============================] - 345s 220ms/step - loss: 0.8679 - accuracy: 0.6988
+Epoch 13/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.7813 - accuracy: 0.7282
+Epoch 14/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.7337 - accuracy: 0.7470
+Epoch 15/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.7415 - accuracy: 0.7433
+Epoch 16/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.6771 - accuracy: 0.7657
+Epoch 17/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.6410 - accuracy: 0.7798
+Epoch 18/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.6378 - accuracy: 0.7803
+Epoch 19/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.5763 - accuracy: 0.8018
+Epoch 20/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.5655 - accuracy: 0.8057
+313/313 [==============================] - 24s 74ms/step - loss: 2.3218 - accuracy: 0.1000
+2.3217902183532715 0.10000000149011612
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 1.1492 - accuracy: 0.5934
+Epoch 2/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.8884 - accuracy: 0.6910
+Epoch 3/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.7863 - accuracy: 0.7281
+Epoch 4/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.7334 - accuracy: 0.7468
+Epoch 5/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.6979 - accuracy: 0.7591
+Epoch 6/20
+1563/1563 [==============================] - 507s 324ms/step - loss: 0.6263 - accuracy: 0.7833
+Epoch 7/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.5894 - accuracy: 0.7983
+Epoch 8/20
+1563/1563 [==============================] - 505s 323ms/step - loss: 0.5545 - accuracy: 0.8091
+Epoch 9/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.5227 - accuracy: 0.8200
+Epoch 10/20
+1563/1563 [==============================] - 505s 323ms/step - loss: 0.4972 - accuracy: 0.8279
+Epoch 11/20
+1563/1563 [==============================] - 507s 324ms/step - loss: 0.4724 - accuracy: 0.8354
+Epoch 12/20
+1563/1563 [==============================] - 507s 325ms/step - loss: 0.4472 - accuracy: 0.8459
+Epoch 13/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.4298 - accuracy: 0.8511
+Epoch 14/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.4195 - accuracy: 0.8534
+Epoch 15/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.3870 - accuracy: 0.8649
+Epoch 16/20
+1563/1563 [==============================] - 505s 323ms/step - loss: 0.3847 - accuracy: 0.8661
+Epoch 17/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.3637 - accuracy: 0.8740
+Epoch 18/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.3501 - accuracy: 0.8763
+Epoch 19/20
+1563/1563 [==============================] - 506s 323ms/step - loss: 0.3383 - accuracy: 0.8821
+Epoch 20/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.3168 - accuracy: 0.8891
+313/313 [==============================] - 23s 73ms/step - loss: 0.9127 - accuracy: 0.6880
+0.9127355217933655 0.6880000233650208
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 507s 324ms/step - loss: 0.5590 - accuracy: 0.8078
+Epoch 2/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.5021 - accuracy: 0.8254
+Epoch 3/20
+1563/1563 [==============================] - 505s 323ms/step - loss: 0.4581 - accuracy: 0.8412
+Epoch 4/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.4304 - accuracy: 0.8506
+Epoch 5/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.3977 - accuracy: 0.8616
+Epoch 6/20
+1563/1563 [==============================] - 504s 322ms/step - loss: 0.3896 - accuracy: 0.8650
+Epoch 7/20
+1563/1563 [==============================] - 504s 322ms/step - loss: 0.3537 - accuracy: 0.8760
+Epoch 8/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.3424 - accuracy: 0.8829
+Epoch 9/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.3502 - accuracy: 0.8784
+Epoch 10/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.3192 - accuracy: 0.8889
+Epoch 11/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.3043 - accuracy: 0.8938
+Epoch 12/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.2969 - accuracy: 0.8965
+Epoch 13/20
+1563/1563 [==============================] - 500s 320ms/step - loss: 0.2886 - accuracy: 0.8989
+Epoch 14/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.2558 - accuracy: 0.9102
+Epoch 15/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.2451 - accuracy: 0.9140
+Epoch 16/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.2347 - accuracy: 0.9174
+Epoch 17/20
+1563/1563 [==============================] - 500s 320ms/step - loss: 0.2228 - accuracy: 0.9226
+Epoch 18/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.2131 - accuracy: 0.9248
+Epoch 19/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.2039 - accuracy: 0.9269
+Epoch 20/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.1970 - accuracy: 0.9303
+313/313 [==============================] - 22s 71ms/step - loss: 0.6579 - accuracy: 0.8018
+0.6578637361526489 0.801800012588501
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.2219 - accuracy: 0.9213
+Epoch 2/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.2218 - accuracy: 0.9217
+Epoch 3/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.2109 - accuracy: 0.9260
+Epoch 4/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.2142 - accuracy: 0.9247
+Epoch 5/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1978 - accuracy: 0.9298
+Epoch 6/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1941 - accuracy: 0.9308
+Epoch 7/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1784 - accuracy: 0.9384
+Epoch 8/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1686 - accuracy: 0.9406
+Epoch 9/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1756 - accuracy: 0.9395
+Epoch 10/20
+1563/1563 [==============================] - 500s 320ms/step - loss: 0.1804 - accuracy: 0.9376
+Epoch 11/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.1586 - accuracy: 0.9449
+Epoch 12/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.1542 - accuracy: 0.9463
+Epoch 13/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.1636 - accuracy: 0.9425
+Epoch 14/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.1436 - accuracy: 0.9497
+Epoch 15/20
+1563/1563 [==============================] - 501s 321ms/step - loss: 0.1452 - accuracy: 0.9484
+Epoch 16/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1379 - accuracy: 0.9521
+Epoch 17/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1345 - accuracy: 0.9524
+Epoch 18/20
+1563/1563 [==============================] - 500s 320ms/step - loss: 0.1380 - accuracy: 0.9525
+Epoch 19/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1252 - accuracy: 0.9562
+Epoch 20/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.1280 - accuracy: 0.9559
+313/313 [==============================] - 22s 72ms/step - loss: 0.7317 - accuracy: 0.8077
+0.7316607236862183 0.807699978351593
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1050 - accuracy: 0.9636
+Epoch 2/20
+1563/1563 [==============================] - 501s 320ms/step - loss: 0.1157 - accuracy: 0.9589
+Epoch 3/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1153 - accuracy: 0.9603
+Epoch 4/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1234 - accuracy: 0.9574
+Epoch 5/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1100 - accuracy: 0.9616
+Epoch 6/20
+1563/1563 [==============================] - 502s 321ms/step - loss: 0.1211 - accuracy: 0.9576
+Epoch 7/20
+1563/1563 [==============================] - 503s 322ms/step - loss: 0.1151 - accuracy: 0.9609
+Epoch 8/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.1247 - accuracy: 0.9557
+Epoch 9/20
+1563/1563 [==============================] - 505s 323ms/step - loss: 0.1081 - accuracy: 0.9614
+Epoch 10/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.1035 - accuracy: 0.9642
+Epoch 11/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.1073 - accuracy: 0.9628
+Epoch 12/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.1113 - accuracy: 0.9618
+Epoch 13/20
+1563/1563 [==============================] - 509s 325ms/step - loss: 0.1004 - accuracy: 0.9645
+Epoch 14/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.1065 - accuracy: 0.9636
+Epoch 15/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0917 - accuracy: 0.9673
+Epoch 16/20
+1563/1563 [==============================] - 507s 324ms/step - loss: 0.1223 - accuracy: 0.9581
+Epoch 17/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.0934 - accuracy: 0.9681
+Epoch 18/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0898 - accuracy: 0.9688
+Epoch 19/20
+1563/1563 [==============================] - 507s 325ms/step - loss: 0.0954 - accuracy: 0.9670
+Epoch 20/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.0921 - accuracy: 0.9677
+313/313 [==============================] - 23s 72ms/step - loss: 0.7651 - accuracy: 0.8087
+0.7651069760322571 0.8087000250816345
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 506s 324ms/step - loss: 0.0494 - accuracy: 0.9826
+Epoch 2/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0901 - accuracy: 0.9690
+Epoch 3/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0791 - accuracy: 0.9739
+Epoch 4/20
+1563/1563 [==============================] - 511s 327ms/step - loss: 0.0829 - accuracy: 0.9706
+Epoch 5/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0790 - accuracy: 0.9730
+Epoch 6/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.0810 - accuracy: 0.9720
+Epoch 7/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0843 - accuracy: 0.9716
+Epoch 8/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0774 - accuracy: 0.9730
+Epoch 9/20
+1563/1563 [==============================] - 507s 325ms/step - loss: 0.0820 - accuracy: 0.9719
+Epoch 10/20
+1563/1563 [==============================] - 509s 325ms/step - loss: 0.0935 - accuracy: 0.9686
+Epoch 11/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.1049 - accuracy: 0.9642
+Epoch 12/20
+1563/1563 [==============================] - 507s 324ms/step - loss: 0.0877 - accuracy: 0.9703
+Epoch 13/20
+1563/1563 [==============================] - 508s 325ms/step - loss: 0.0675 - accuracy: 0.9763
+Epoch 14/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.0711 - accuracy: 0.9758
+Epoch 15/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0888 - accuracy: 0.9701
+Epoch 16/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0928 - accuracy: 0.9690
+Epoch 17/20
+1563/1563 [==============================] - 509s 326ms/step - loss: 0.0855 - accuracy: 0.9706
+Epoch 18/20
+1563/1563 [==============================] - 511s 327ms/step - loss: 0.0803 - accuracy: 0.9726
+Epoch 19/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0820 - accuracy: 0.9724
+Epoch 20/20
+1563/1563 [==============================] - 510s 326ms/step - loss: 0.0782 - accuracy: 0.9738
+313/313 [==============================] - 23s 72ms/step - loss: 0.7389 - accuracy: 0.8126
+0.7388949990272522 0.8126000165939331
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 512s 327ms/step - loss: 0.0347 - accuracy: 0.9881
+Epoch 2/20
+1563/1563 [==============================] - 514s 329ms/step - loss: 0.0574 - accuracy: 0.9799
+Epoch 3/20
+1563/1563 [==============================] - 514s 329ms/step - loss: 0.0717 - accuracy: 0.9756
+Epoch 4/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.1311 - accuracy: 0.9572
+Epoch 5/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0599 - accuracy: 0.9793
+Epoch 6/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0630 - accuracy: 0.9796
+Epoch 7/20
+1563/1563 [==============================] - 514s 329ms/step - loss: 0.0612 - accuracy: 0.9791
+Epoch 8/20
+1563/1563 [==============================] - 512s 327ms/step - loss: 0.0637 - accuracy: 0.9792
+Epoch 9/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0639 - accuracy: 0.9782
+Epoch 10/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0813 - accuracy: 0.9723
+Epoch 11/20
+1563/1563 [==============================] - 512s 328ms/step - loss: 0.0656 - accuracy: 0.9777
+Epoch 12/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0708 - accuracy: 0.9767
+Epoch 13/20
+1563/1563 [==============================] - 514s 329ms/step - loss: 0.0700 - accuracy: 0.9759
+Epoch 14/20
+1563/1563 [==============================] - 513s 328ms/step - loss: 0.0962 - accuracy: 0.9681
+Epoch 15/20
+1563/1563 [==============================] - 512s 327ms/step - loss: 0.0536 - accuracy: 0.9825
+Epoch 16/20
+1563/1563 [==============================] - 492s 315ms/step - loss: 0.0741 - accuracy: 0.9747
+Epoch 17/20
+1563/1563 [==============================] - 492s 315ms/step - loss: 0.0836 - accuracy: 0.9718
+Epoch 18/20
+1563/1563 [==============================] - 491s 314ms/step - loss: 0.0549 - accuracy: 0.9816
+Epoch 19/20
+1563/1563 [==============================] - 494s 316ms/step - loss: 0.0586 - accuracy: 0.9799
+Epoch 20/20
+1563/1563 [==============================] - 517s 331ms/step - loss: 0.0654 - accuracy: 0.9781
+313/313 [==============================] - 23s 73ms/step - loss: 0.7807 - accuracy: 0.8115
+0.780676543712616 0.8115000128746033
+<class 'float'> <class 'float'>
+Epoch 1/20
+1011/1563 [==================>...........] - ETA: 2:13 - loss: 0.0172 - accu1012/1563 [==================>...........] - ETA: 2:12 - loss: 0.0173 - accu1013/1563 [==================>...........] - ETA: 2:12 - loss: 0.0174 - accu1014/1563 [==================>...........] - ETA: 2:12 - loss: 0.0174 - accu1015/1563 [==================>...........] - ETA: 2:12 - loss: 0.0175 - accu1016/1563 [==================>...........] - ETA: 2:11 - loss: 0.0178 - accu1017/1563 [==================>...........] - ETA: 2:11 - loss: 0.0178 - accu1018/1563 [==================>...........] - ETA: 2:11 - loss: 0.0179 - accu1019/1563 [==================>...........] - ETA: 2:11 - loss: 0.0179 - accu1020/1563 [==================>...........] - ETA: 2:10 - loss: 0.0180 - accu1021/1563 [==================>...........] - ETA: 2:10 - loss: 0.0180 - accu1022/1563 [==================>...........] - ETA: 2:10 - loss: 0.0180 - accu1023/1563 [==================>...........] - ETA: 2:10 - loss: 0.0180 - accu1024/1563 [==================>...........] - ETA: 2:09 - loss: 0.0180 - accu1025/1563 [==================>...........] - ETA: 2:09 - loss: 0.0181 - accu1026/1563 [==================>...........] - ETA: 2:09 - loss: 0.0181 - accu1027/1563 [==================>...........] - ETA: 2:09 - loss: 0.0181 - accu1028/1563 [==================>...........] - ETA: 2:08 - loss: 0.0181 - accu1029/1563 [==================>...........] - ETA: 2:08 - loss: 0.0181 - accu1030/1563 [==================>...........] - ETA: 2:08 - loss: 0.0184 - accu1031/1563 [==================>...........] - ETA: 2:08 - loss: 0.0186 - accu1111/1563 [====================>.........] - ETA: 1:49 - loss: 0.0221 - accu1112/1563 [====================>.........] - ETA: 1:49 - loss: 0.0222 - accu1113/1563 [====================>.........] - ETA: 1:48 - loss: 0.0222 - accu1114/1563 [====================>.........] - ETA: 1:48 - loss: 0.0222 - accu1115/1563 [====================>.........] - ETA: 1:48 - loss: 0.0222 - accu1116/1563 [====================>.........] - ETA: 1:48 - loss: 0.0222 - accu1117/1563 [====================>.........] - ETA: 1:47 - loss: 0.0223 - accu1118/1563 [====================>.........] - ETA: 1:47 - loss: 0.0223 - accu1119/1563 [====================>.........] - ETA: 1:47 - loss: 0.0223 - accu1120/1563 [====================>.........] - ETA: 1:47 - loss: 0.0224 - accu1121/1563 [====================>.........] - ETA: 1:47 - loss: 0.0224 - accuracy:1563/1563 [==============================] - 384s 246ms/step - loss: 0.0283 - accuracy: 0.9911
+Epoch 2/20
+1563/1563 [==============================] - 375s 240ms/step - loss: 0.0432 - accuracy: 0.9853
+Epoch 3/20
+1563/1563 [==============================] - 361s 231ms/step - loss: 0.0445 - accuracy: 0.9846
+Epoch 4/20
+1563/1563 [==============================] - 352s 226ms/step - loss: 0.0560 - accuracy: 0.9815
+Epoch 5/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0614 - accuracy: 0.9796
+Epoch 6/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0502 - accuracy: 0.9830
+Epoch 7/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0606 - accuracy: 0.9797
+Epoch 8/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0555 - accuracy: 0.9815
+Epoch 9/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0906 - accuracy: 0.9695
+Epoch 10/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0453 - accuracy: 0.9853
+Epoch 11/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0489 - accuracy: 0.9838
+Epoch 12/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0538 - accuracy: 0.9814
+Epoch 13/20
+1563/1563 [==============================] - 355s 227ms/step - loss: 0.0510 - accuracy: 0.9832
+Epoch 14/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0609 - accuracy: 0.9794
+Epoch 15/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0500 - accuracy: 0.9828
+Epoch 16/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0558 - accuracy: 0.9809
+Epoch 17/20
+1563/1563 [==============================] - 352s 226ms/step - loss: 0.0567 - accuracy: 0.9811
+Epoch 18/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0539 - accuracy: 0.9816
+Epoch 19/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0590 - accuracy: 0.9801
+Epoch 20/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0703 - accuracy: 0.9767
+313/313 [==============================] - 13s 41ms/step - loss: 0.7996 - accuracy: 0.8118
+0.7996347546577454 0.8118000030517578
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0172 - accuracy: 0.9945
+Epoch 2/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0517 - accuracy: 0.9827
+Epoch 3/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0387 - accuracy: 0.9875
+Epoch 4/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0505 - accuracy: 0.9832
+Epoch 5/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0438 - accuracy: 0.9854
+Epoch 6/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0547 - accuracy: 0.9817
+Epoch 7/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0468 - accuracy: 0.9846
+Epoch 8/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0643 - accuracy: 0.9786
+Epoch 9/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0455 - accuracy: 0.9849
+Epoch 10/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0468 - accuracy: 0.9845
+Epoch 11/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0459 - accuracy: 0.9845
+Epoch 12/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0482 - accuracy: 0.9840
+Epoch 13/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0504 - accuracy: 0.9835
+Epoch 14/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0468 - accuracy: 0.9838
+Epoch 15/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0450 - accuracy: 0.9846
+Epoch 16/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0618 - accuracy: 0.9792
+Epoch 17/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0473 - accuracy: 0.9842
+Epoch 18/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0439 - accuracy: 0.9853
+Epoch 19/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0438 - accuracy: 0.9857
+Epoch 20/20
+1563/1563 [==============================] - 355s 227ms/step - loss: 0.0435 - accuracy: 0.9861
+313/313 [==============================] - 13s 41ms/step - loss: 0.8805 - accuracy: 0.8062
+0.8805355429649353 0.8062000274658203
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0211 - accuracy: 0.9931
+Epoch 2/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0356 - accuracy: 0.9880
+Epoch 3/20
+1563/1563 [==============================] - 354s 227ms/step - loss: 0.0518 - accuracy: 0.9829
+Epoch 4/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0536 - accuracy: 0.9822
+Epoch 5/20
+1563/1563 [==============================] - 355s 227ms/step - loss: 0.0463 - accuracy: 0.9842
+Epoch 6/20
+1563/1563 [==============================] - 355s 227ms/step - loss: 0.0384 - accuracy: 0.9877
+Epoch 7/20
+1563/1563 [==============================] - 355s 227ms/step - loss: 0.0389 - accuracy: 0.9870
+Epoch 8/20
+1563/1563 [==============================] - 354s 227ms/step - loss: 0.0475 - accuracy: 0.9839
+Epoch 9/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0360 - accuracy: 0.9874
+Epoch 10/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0391 - accuracy: 0.9868
+Epoch 11/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0901 - accuracy: 0.9708
+Epoch 12/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0493 - accuracy: 0.9839
+Epoch 13/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0356 - accuracy: 0.9875
+Epoch 14/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0357 - accuracy: 0.9883
+Epoch 15/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0393 - accuracy: 0.9867
+Epoch 16/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0492 - accuracy: 0.9843
+Epoch 17/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0422 - accuracy: 0.9855
+Epoch 18/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0794 - accuracy: 0.9741
+Epoch 19/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0405 - accuracy: 0.9869
+Epoch 20/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0358 - accuracy: 0.9879
+313/313 [==============================] - 13s 41ms/step - loss: 0.9029 - accuracy: 0.8043
+0.9029269814491272 0.8043000102043152
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0143 - accuracy: 0.9955
+Epoch 2/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0392 - accuracy: 0.9877
+Epoch 3/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0276 - accuracy: 0.9904
+Epoch 4/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0393 - accuracy: 0.9868
+Epoch 5/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0403 - accuracy: 0.9863
+Epoch 6/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0386 - accuracy: 0.9874
+Epoch 7/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0369 - accuracy: 0.9874
+Epoch 8/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0410 - accuracy: 0.9857
+Epoch 9/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0396 - accuracy: 0.9871
+Epoch 10/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0492 - accuracy: 0.9841
+Epoch 11/20
+1563/1563 [==============================] - 354s 226ms/step - loss: 0.0320 - accuracy: 0.9890
+Epoch 12/20
+1563/1563 [==============================] - 353s 226ms/step - loss: 0.0368 - accuracy: 0.9878
+Epoch 13/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0470 - accuracy: 0.9848
+Epoch 14/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0322 - accuracy: 0.9897
+Epoch 15/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0338 - accuracy: 0.9886
+Epoch 16/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0376 - accuracy: 0.9876
+Epoch 17/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0392 - accuracy: 0.9871
+Epoch 18/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0468 - accuracy: 0.9848
+Epoch 19/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0599 - accuracy: 0.9802
+Epoch 20/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0263 - accuracy: 0.9911
+313/313 [==============================] - 13s 41ms/step - loss: 0.9328 - accuracy: 0.7999
+0.9327894449234009 0.7998999953269958
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0078 - accuracy: 0.9977
+Epoch 2/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0253 - accuracy: 0.9915
+Epoch 3/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0307 - accuracy: 0.9896
+Epoch 4/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0339 - accuracy: 0.9895
+Epoch 5/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0323 - accuracy: 0.9898
+Epoch 6/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0322 - accuracy: 0.9897
+Epoch 7/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0303 - accuracy: 0.9896
+Epoch 8/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0333 - accuracy: 0.9888
+Epoch 9/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0306 - accuracy: 0.9896
+Epoch 10/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0340 - accuracy: 0.9892
+Epoch 11/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0329 - accuracy: 0.9885
+Epoch 12/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0416 - accuracy: 0.9868
+Epoch 13/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0293 - accuracy: 0.9903
+Epoch 14/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0458 - accuracy: 0.9852
+Epoch 15/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0310 - accuracy: 0.9897
+Epoch 16/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0317 - accuracy: 0.9892
+Epoch 17/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0310 - accuracy: 0.9894
+Epoch 18/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0339 - accuracy: 0.9888
+Epoch 19/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0357 - accuracy: 0.9882
+Epoch 20/20
+1563/1563 [==============================] - 348s 222ms/step - loss: 0.0311 - accuracy: 0.9898
+313/313 [==============================] - 13s 40ms/step - loss: 0.9297 - accuracy: 0.8050
+0.9296835660934448 0.8050000071525574
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0096 - accuracy: 0.9969
+Epoch 2/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0269 - accuracy: 0.9909
+Epoch 3/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0294 - accuracy: 0.9909
+Epoch 4/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0285 - accuracy: 0.9906
+Epoch 5/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0395 - accuracy: 0.9873
+Epoch 6/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0282 - accuracy: 0.9906
+Epoch 7/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0290 - accuracy: 0.9904
+Epoch 8/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0352 - accuracy: 0.9885
+Epoch 9/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0296 - accuracy: 0.9896
+Epoch 10/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0447 - accuracy: 0.9860
+Epoch 11/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0285 - accuracy: 0.9902
+Epoch 12/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0351 - accuracy: 0.9881
+Epoch 13/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0331 - accuracy: 0.9893
+Epoch 14/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0290 - accuracy: 0.9905
+Epoch 15/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0291 - accuracy: 0.9904
+Epoch 16/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0305 - accuracy: 0.9899
+Epoch 17/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0319 - accuracy: 0.9897
+Epoch 18/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0308 - accuracy: 0.9899
+Epoch 19/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0332 - accuracy: 0.9889
+Epoch 20/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0291 - accuracy: 0.9904
+313/313 [==============================] - 13s 40ms/step - loss: 0.8686 - accuracy: 0.8101
+0.8685781955718994 0.8101000189781189
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 349s 224ms/step - loss: 0.0169 - accuracy: 0.9948
+Epoch 2/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0201 - accuracy: 0.9936
+Epoch 3/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0281 - accuracy: 0.9908
+Epoch 4/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0314 - accuracy: 0.9891
+Epoch 5/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0275 - accuracy: 0.9911
+Epoch 6/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0403 - accuracy: 0.9870
+Epoch 7/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0231 - accuracy: 0.9922
+Epoch 8/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0277 - accuracy: 0.9905
+Epoch 9/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0267 - accuracy: 0.9912
+Epoch 10/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0294 - accuracy: 0.9900
+Epoch 11/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0270 - accuracy: 0.9917
+Epoch 12/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0345 - accuracy: 0.9886
+Epoch 13/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0267 - accuracy: 0.9914
+Epoch 14/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0261 - accuracy: 0.9915
+Epoch 15/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0775 - accuracy: 0.9753
+Epoch 16/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0420 - accuracy: 0.9865
+Epoch 17/20
+1563/1563 [==============================] - 348s 222ms/step - loss: 0.0216 - accuracy: 0.9926
+Epoch 18/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0189 - accuracy: 0.9936
+Epoch 19/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0260 - accuracy: 0.9916
+Epoch 20/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0275 - accuracy: 0.9907
+313/313 [==============================] - 12s 39ms/step - loss: 0.9246 - accuracy: 0.8075
+0.9245662093162537 0.8075000047683716
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0099 - accuracy: 0.9969
+Epoch 2/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0245 - accuracy: 0.9921
+Epoch 3/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0202 - accuracy: 0.9932
+Epoch 4/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0276 - accuracy: 0.9906
+Epoch 5/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0286 - accuracy: 0.9907
+Epoch 6/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0305 - accuracy: 0.9901
+Epoch 7/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0222 - accuracy: 0.9931
+Epoch 8/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0264 - accuracy: 0.9919
+Epoch 9/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0277 - accuracy: 0.9907
+Epoch 10/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0260 - accuracy: 0.9913
+Epoch 11/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0270 - accuracy: 0.9918
+Epoch 12/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0305 - accuracy: 0.9900
+Epoch 13/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0240 - accuracy: 0.9917
+Epoch 14/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0336 - accuracy: 0.9894
+Epoch 15/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0226 - accuracy: 0.9928
+Epoch 16/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0282 - accuracy: 0.9908
+Epoch 17/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0252 - accuracy: 0.9917
+Epoch 18/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0262 - accuracy: 0.9913
+Epoch 19/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0264 - accuracy: 0.9910
+Epoch 20/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0263 - accuracy: 0.9912
+313/313 [==============================] - 12s 40ms/step - loss: 0.9059 - accuracy: 0.8121
+0.9059383869171143 0.8120999932289124
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0092 - accuracy: 0.9971
+Epoch 2/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0214 - accuracy: 0.9932
+Epoch 3/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0295 - accuracy: 0.9906
+Epoch 4/20
+1563/1563 [==============================] - 348s 223ms/step - loss: 0.0229 - accuracy: 0.9926
+Epoch 5/20
+1563/1563 [==============================] - 348s 222ms/step - loss: 0.0189 - accuracy: 0.9938
+Epoch 6/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0252 - accuracy: 0.9920
+Epoch 7/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0235 - accuracy: 0.9925
+Epoch 8/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0228 - accuracy: 0.9926
+Epoch 9/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0252 - accuracy: 0.9915
+Epoch 10/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0233 - accuracy: 0.9922
+Epoch 11/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0229 - accuracy: 0.9921
+Epoch 12/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0240 - accuracy: 0.9917
+Epoch 13/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0240 - accuracy: 0.9918
+Epoch 14/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0245 - accuracy: 0.9919
+Epoch 15/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0262 - accuracy: 0.9923
+Epoch 16/20
+1563/1563 [==============================] - 352s 225ms/step - loss: 0.0224 - accuracy: 0.9928
+Epoch 17/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0247 - accuracy: 0.9919
+Epoch 18/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0278 - accuracy: 0.9919
+Epoch 19/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0239 - accuracy: 0.9922
+Epoch 20/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0245 - accuracy: 0.9913
+313/313 [==============================] - 13s 40ms/step - loss: 0.9140 - accuracy: 0.8064
+0.9139758944511414 0.8064000010490417
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 351s 225ms/step - loss: 0.0079 - accuracy: 0.9975
+Epoch 2/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0217 - accuracy: 0.9935
+Epoch 3/20
+1563/1563 [==============================] - 351s 224ms/step - loss: 0.0140 - accuracy: 0.9955
+Epoch 4/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0201 - accuracy: 0.9936
+Epoch 5/20
+1563/1563 [==============================] - 350s 224ms/step - loss: 0.0192 - accuracy: 0.9939
+Epoch 6/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.0219 - accuracy: 0.9925
+Epoch 7/20
+1563/1563 [==============================] - 322s 206ms/step - loss: 0.0228 - accuracy: 0.9926
+Epoch 8/20
+1563/1563 [==============================] - 322s 206ms/step - loss: 0.0246 - accuracy: 0.9924
+Epoch 9/20
+1563/1563 [==============================] - 322s 206ms/step - loss: 0.0225 - accuracy: 0.9929
+Epoch 10/20
+1563/1563 [==============================] - 320s 205ms/step - loss: 0.0192 - accuracy: 0.9931
+Epoch 11/20
+1563/1563 [==============================] - 320s 205ms/step - loss: 0.0259 - accuracy: 0.9918
+Epoch 12/20
+1563/1563 [==============================] - 320s 205ms/step - loss: 0.0206 - accuracy: 0.9930
+Epoch 13/20
+1563/1563 [==============================] - 347s 222ms/step - loss: 0.0214 - accuracy: 0.9932
+Epoch 14/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0262 - accuracy: 0.9917
+Epoch 15/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0214 - accuracy: 0.9932
+Epoch 16/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0222 - accuracy: 0.9927
+Epoch 17/20
+1563/1563 [==============================] - 345s 220ms/step - loss: 0.0434 - accuracy: 0.9866
+Epoch 18/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0209 - accuracy: 0.9928
+Epoch 19/20
+1563/1563 [==============================] - 349s 223ms/step - loss: 0.0223 - accuracy: 0.9926
+Epoch 20/20
+1563/1563 [==============================] - 346s 222ms/step - loss: 0.0318 - accuracy: 0.9897
+313/313 [==============================] - 12s 39ms/step - loss: 0.8706 - accuracy: 0.8140
+0.8705551624298096 0.8140000104904175
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 346s 221ms/step - loss: 0.0116 - accuracy: 0.9969
+Epoch 2/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0234 - accuracy: 0.9930
+Epoch 3/20
+1563/1563 [==============================] - 345s 220ms/step - loss: 0.0125 - accuracy: 0.9960
+Epoch 4/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0141 - accuracy: 0.9955
+Epoch 5/20
+1563/1563 [==============================] - 334s 214ms/step - loss: 0.0197 - accuracy: 0.9939
+Epoch 6/20
+1563/1563 [==============================] - 319s 204ms/step - loss: 0.0210 - accuracy: 0.9929
+Epoch 7/20
+1563/1563 [==============================] - 318s 204ms/step - loss: 0.0203 - accuracy: 0.9933
+Epoch 8/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0193 - accuracy: 0.9935
+Epoch 9/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0221 - accuracy: 0.9926
+Epoch 10/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0208 - accuracy: 0.9936
+Epoch 11/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0215 - accuracy: 0.9930
+Epoch 12/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0209 - accuracy: 0.9932
+Epoch 13/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0205 - accuracy: 0.9935
+Epoch 14/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0233 - accuracy: 0.9922
+Epoch 15/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0246 - accuracy: 0.9914
+Epoch 16/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0195 - accuracy: 0.9931
+Epoch 17/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0199 - accuracy: 0.9936
+Epoch 18/20
+1563/1563 [==============================] - 318s 203ms/step - loss: 0.0231 - accuracy: 0.9921
+Epoch 19/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0208 - accuracy: 0.9925
+Epoch 20/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0298 - accuracy: 0.9902
+313/313 [==============================] - 10s 32ms/step - loss: 0.9092 - accuracy: 0.8091
+0.9091641306877136 0.8090999722480774
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0043 - accuracy: 0.9988
+Epoch 2/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0127 - accuracy: 0.9957
+Epoch 3/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0172 - accuracy: 0.9946
+Epoch 4/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0236 - accuracy: 0.9925
+Epoch 5/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0190 - accuracy: 0.9938
+Epoch 6/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0150 - accuracy: 0.9952
+Epoch 7/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0212 - accuracy: 0.9934
+Epoch 8/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0220 - accuracy: 0.9933
+Epoch 9/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0187 - accuracy: 0.9937
+Epoch 10/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0205 - accuracy: 0.9933
+Epoch 11/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0224 - accuracy: 0.9927
+Epoch 12/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0186 - accuracy: 0.9940
+Epoch 13/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0246 - accuracy: 0.9919
+Epoch 14/20
+1563/1563 [==============================] - 318s 203ms/step - loss: 0.0228 - accuracy: 0.9923
+Epoch 15/20
+1563/1563 [==============================] - 317s 203ms/step - loss: 0.0200 - accuracy: 0.9932
+Epoch 16/20
+1563/1563 [==============================] - 316s 202ms/step - loss: 0.0181 - accuracy: 0.9937
+Epoch 17/20
+1563/1563 [==============================] - 319s 204ms/step - loss: 0.0215 - accuracy: 0.9930
+Epoch 18/20
+1563/1563 [==============================] - 340s 218ms/step - loss: 0.0189 - accuracy: 0.9938
+Epoch 19/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0210 - accuracy: 0.9931
+Epoch 20/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0199 - accuracy: 0.9937
+313/313 [==============================] - 12s 40ms/step - loss: 0.8789 - accuracy: 0.8083
+0.8789088129997253 0.8083000183105469
+<class 'float'> <class 'float'>
+Epoch 1/20
+1563/1563 [==============================] - 345s 221ms/step - loss: 0.0065 - accuracy: 0.9979
+Epoch 2/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0179 - accuracy: 0.9941
+Epoch 3/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0191 - accuracy: 0.9939
+Epoch 4/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 0.0154 - accuracy: 0.9951
+Epoch 5/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.0206 - accuracy: 0.9938
+Epoch 6/20
+1563/1563 [==============================] - 344s 220ms/step - loss: 0.0171 - accuracy: 0.9949
+Epoch 7/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.0252 - accuracy: 0.9917
+Epoch 8/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 0.0171 - accuracy: 0.9947
+Epoch 9/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.0279 - accuracy: 0.9913
+Epoch 10/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 0.0179 - accuracy: 0.9945
+Epoch 11/20
+1563/1563 [==============================] - 343s 219ms/step - loss: 0.0179 - accuracy: 0.9942
+Epoch 12/20
+1563/1563 [==============================] - 343s 220ms/step - loss: 0.0221 - accuracy: 0.9935
+Epoch 13/20
+1563/1563 [==============================] - 342s 219ms/step - loss: 0.0197 - accuracy: 0.9936
+Epoch 14/20
+1563/1563 [==============================] - 342s 219ms/step - loss: 0.0254 - accuracy: 0.9916
+Epoch 15/20
+1563/1563 [==============================] - 342s 218ms/step - loss: 0.0217 - accuracy: 0.9933
+Epoch 16/20
+1563/1563 [==============================] - 342s 219ms/step - loss: 0.0142 - accuracy: 0.9954
+Epoch 17/20
+1563/1563 [==============================] - 342s 219ms/step - loss: 0.0244 - accuracy: 0.9930
+Epoch 18/20
+1563/1563 [==============================] - 341s 218ms/step - loss: 0.0235 - accuracy: 0.9924
+Epoch 19/20
+1563/1563 [==============================] - 341s 218ms/step - loss: 0.0196 - accuracy: 0.9938
+Epoch 20/20
+1563/1563 [==============================] - 341s 218ms/step - loss: 0.0246 - accuracy: 0.9922
+313/313 [==============================] - 12s 39ms/step - loss: 0.9376 - accuracy: 0.8074
+0.9375816583633423 0.8073999881744385
+<class 'float'> <class 'float'>
+DEBUG flwr 2023-03-13 16:25:15,922 | connection.py:109 | gRPC channel closed
+INFO flwr 2023-03-13 16:25:15,922 | app.py:153 | Disconnect and shut down
